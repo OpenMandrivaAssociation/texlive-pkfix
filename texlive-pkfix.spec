@@ -1,3 +1,9 @@
+# revision 22168
+# category Package
+# catalog-ctan /support/pkfix/pkfix.pl
+# catalog-date 2011-04-22 18:23:02 +0200
+# catalog-license lppl1.3
+# catalog-version 1.6
 Name:		texlive-pkfix
 Version:	1.6
 Release:	1
@@ -39,6 +45,7 @@ replaces them by type 1 versions of the fonts, if possible.
 %{_bindir}/pkfix
 %{_texmfdistdir}/scripts/pkfix/pkfix.pl
 %doc %{_texmfdistdir}/doc/support/pkfix/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
