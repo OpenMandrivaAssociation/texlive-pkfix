@@ -1,12 +1,12 @@
-# revision 22168
+# revision 26032
 # category Package
 # catalog-ctan /support/pkfix/pkfix.pl
-# catalog-date 2011-04-22 18:23:02 +0200
+# catalog-date 2012-04-18 16:26:37 +0200
 # catalog-license lppl1.3
-# catalog-version 1.6
+# catalog-version 1.7
 Name:		texlive-pkfix
-Version:	1.6
-Release:	2
+Version:	1.7
+Release:	1
 Summary:	Replace pk fonts in PostScript with Type 1 fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pkfix/pkfix.pl
