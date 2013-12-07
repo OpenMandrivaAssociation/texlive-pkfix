@@ -6,7 +6,7 @@
 # catalog-version 1.7
 Name:		texlive-pkfix
 Version:	1.7
-Release:	1
+Release:	2
 Summary:	Replace pk fonts in PostScript with Type 1 fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pkfix/pkfix.pl
