@@ -3,7 +3,7 @@ Version:	26032
 Release:	2
 Summary:	Replace pk fonts in PostScript with Type 1 fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/pkfix/pkfix.pl
+URL:		https://www.ctan.org/tex-archive/support/pkfix/pkfix.pl
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pkfix.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pkfix.doc.r%{version}.tar.xz
