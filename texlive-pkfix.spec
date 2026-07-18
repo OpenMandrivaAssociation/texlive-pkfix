@@ -1,5 +1,6 @@
 %global tl_name pkfix
 %global tl_revision 26032
+%global tl_bin_links pkfix:%{_texmfdistdir}/scripts/pkfix/pkfix.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(pkfix.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The perl script pkfix looks for DVIPSBitmapFont comments in PostScript
